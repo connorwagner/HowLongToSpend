@@ -1,18 +1,15 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <how-long-to-spend-calculator />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import HowLongToSpendCalculator from "@/components/HowLongToSpendCalculator.vue";
 
 export default {
-  name: "home",
   components: {
-    HelloWorld
+    HowLongToSpendCalculator
   }
 };
 </script>
